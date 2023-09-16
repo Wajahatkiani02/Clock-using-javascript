@@ -1,0 +1,63 @@
+body{
+    background-color: #111;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#clock-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    border-radius: 7px;
+    background: linear-gradient(to right, #8360c3, #2ebf91);
+    font-size: 3rem;
+    margin-top: 0;
+    color: white;
+    padding: 0 10px;
+}
+#clock{
+    font-size: 3rem;
+    margin-bottom: 20px;
+    /* background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(31, 183, 214, 1) 47%, rgba(9, 9, 121, 1) 100%); */
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 10px; */
+}
+#hour #min #sec{
+    /* background-color: white; */
+    color: white;
+}
+#hour{
+    background: linear-gradient(to right, #8360c3, #2ebf91);
+    padding: 0 10px;
+    border-radius: 7px;
+    width: 70px;
+}
+#min{
+    background: linear-gradient(to right, #8360c3, #2ebf91);
+    width: fit-content;
+    margin-left: 13px;
+    padding: 0 10px;
+    border-radius: 7px;
+    width: 70px;
+}
+#sec{
+    margin-left: 13px;
+    background: linear-gradient(to right, #8360c3, #2ebf91);
+    padding: 0 10px;
+    border-radius: 7px;
+    width: 70px;
+}
+.dots{
+    margin-bottom: 5px;
+}
